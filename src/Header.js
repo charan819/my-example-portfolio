@@ -30,7 +30,9 @@ const Header = () => {
           <button onClick={() => setIsOpen(false)} className="text-blue-500 text-3xl mr-10">
             <FaTimes />
           </button>
-          <h1 className="text-grey text-xl font-bold tracking-wide">Content</h1>
+          <h1 className="text-grey text-xl font-bold tracking-wide">Contents</h1>
+
+
 
         </div>
 
