@@ -27,10 +27,11 @@ const Header = () => {
       >
         <div className="flex justify-start items-center px-6 py-4">
           {/* Close Button (✖) */}
-          <button onClick={() => setIsOpen(false)} className="text-blue-500 text-3xl mr-10">
+          <button onClick={() => setIsOpen(false)} className="text-blue-500 text-3xl mr-11">
             <FaTimes />
           </button>
-          <h1 className="text-grey text-xl font-bold tracking-wide">Contents</h1>
+          <h1 className="text-grey text-xl font-bold tracking-wide">Content</h1>
+
 
 
 
