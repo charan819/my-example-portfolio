@@ -43,6 +43,7 @@ const Header = () => {
           <li><a href="#about" className="text-lg hover:text-pink-500" onClick={() => setIsOpen(false)}>About</a></li>
           <li><a href="#skills" className="text-lg hover:text-pink-500" onClick={() => setIsOpen(false)}>Skills</a></li>
           <li><a href="#education" className="text-lg hover:text-pink-500" onClick={() => setIsOpen(false)}>Education</a></li>
+          <li><a href="#experience" className="text-lg hover:text-pink-500" onClick={() => setIsOpen(false)}>Experience</a></li>
           <li><a href="#projects" className="text-lg hover:text-pink-500" onClick={() => setIsOpen(false)}>Projects</a></li>
           <li><a href="#certifications" className="text-lg hover:text-pink-500" onClick={() => setIsOpen(false)}>Certifications</a></li>
           <li><a href="#contact" className="text-lg hover:text-pink-500" onClick={() => setIsOpen(false)}>Contact</a></li>

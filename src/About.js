@@ -6,9 +6,9 @@ const About = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl text-4xl font-bold text-blue-600">About Me</h2>
         <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">
-          Developer with a Master’s in Computer Science, looking for opportunities that provide ample learning
-          and would help me become a distinguished professional. Enthusiastic about full-stack development of 
-          applications that leverage machine learning.
+        Full Stack Developer with a Master’s in Computer Science, proficient in building scalable web applications with front-end
+(React, JavaScript) and back-end (Java, Spring) technologies. Seeking opportunities to apply these skills in developing
+impactful customer-facing applications.
         </p>
         <div className="mt-6 max-w-3xl mx-auto text-left bg-gray-100 p-6 rounded-lg shadow-lg">
           <p className="text-lg"><strong>First Name:</strong> Sai Charan</p>
