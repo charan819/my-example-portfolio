@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "./profile.jpg"; // ✅ Import Profile Picture
+import profilePic from "./Profile1.jpg"; // ✅ Import Profile Picture
 import bgImage from "./nobody.jpg"; // ✅ Import Background Image
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // ✅ Import Icons
 
