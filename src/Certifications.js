@@ -37,7 +37,9 @@ const Certifications = () => {
   return (
     <section id="certifications" className="py-16 bg-white text-center">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl text-4xl font-bold text-blue-600">Certifications</h2>
+        {/* <h2 className="text-3xl text-4xl font-bold text-blue-600">Certifications</h2> */}
+        <h2 className="text-4xl font-bold text-blue-600 mb-10 mt-10">Certifications</h2>
+
 
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {certifications.map((cert, index) => (
