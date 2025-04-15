@@ -2,14 +2,19 @@ import React from "react";
 
 const certifications = [
   {
-    title: "Database Programming with SQL",
-    issuer: "Oracle",
-    date: "May 2022",
+    title: "Amazon Junior Software Developer",
+    issuer: "Amazon",
+    date: "April 2025",
   },
   {
-    title: "Cognitive Class - Data Science 101",
-    issuer: "IBM",
-    date: "December 2022",
+    title: "Certified Amazon Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "March 2025",
+  },
+  {
+    title: "Master Java Programming - Complete Beginner to Advanced",
+    issuer: "GeeksForGeeks",
+    date: "November 2023",
   },
   {
     title: "Cognitive Class - Machine Learning with Python",
@@ -17,9 +22,14 @@ const certifications = [
     date: "February 2023",
   },
   {
-    title: "Master Java Programming - Complete Beginner to Advanced",
-    issuer: "GeeksForGeeks",
-    date: "November 2023",
+    title: "Cognitive Class - Data Science 101",
+    issuer: "IBM",
+    date: "December 2022",
+  },
+  {
+    title: "Database Programming with SQL",
+    issuer: "Oracle",
+    date: "May 2022",
   },
 ];
 

@@ -4,8 +4,8 @@ const education = [
   {
     degree: "Master’s in Computer Science",
     school: "University of South Florida",
-    year: "August 2023 – Present",
-    gpa: "GPA: 3.83",
+    year: "August 2023 – May 2025",
+    gpa: "GPA: 3.89",
   },
   {
     degree: "B.Tech in Computer Science and Engineering",
