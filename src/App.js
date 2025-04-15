@@ -13,13 +13,14 @@ function App() {
   return (
     <div >
       <Header />
-      <Me />
-      <section className="pt-20 px-4 md:px-16"><About /></section>
-      <section className="pt-20 px-4 md:px-16"><Skills /></section>
-      <section className="pt-20 px-4 md:px-16"><Projects /></section>
-      <section className="pt-20 px-4 md:px-16"><Education /></section>
-      <section className="pt-20 px-4 md:px-16"><Certifications /></section>
-      <section className="pt-20 px-4 md:px-16"><Contact /></section>
+      <section id="Home"><Me /></section>
+      <section id="about" className="min-h-screen flex flex-col justify-start pt-32 px-4 md:px-16"><About /></section>
+      <section id="skills" className="min-h-screen flex flex-col justify-start pt-32 px-4 md:px-16"><Skills /></section>
+      <section id="education" className="min-h-screen flex flex-col justify-start pt-32 px-4 md:px-16"><Education /></section>
+      <section id="projects" className="min-h-screen flex flex-col justify-start pt-32 px-4 md:px-16"><Projects /></section>
+      <section id="certifications" className="min-h-screen flex flex-col justify-start pt-32 px-4 md:px-16"><Certifications /></section>
+      <section id="contact" className="min-h-screen flex flex-col justify-start pt-32 px-4 md:px-16"><Contact /></section>
+
       <Footer />
     </div>
   );
