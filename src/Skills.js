@@ -14,18 +14,21 @@ const Skills = () => {
       <div className="bg-white p-4 shadow-md rounded-lg">HTML5</div>
       <div className="bg-white p-4 shadow-md rounded-lg">CSS3</div>
       <div className="bg-white p-4 shadow-md rounded-lg">Python</div>
+      <div className="bg-white p-4 shadow-md rounded-lg">TypeScript</div>
 
       {/* Frameworks & Libraries */}
       <div className="bg-white p-4 shadow-md rounded-lg">React.js</div>
       <div className="bg-white p-4 shadow-md rounded-lg">Redux</div>
       <div className="bg-white p-4 shadow-md rounded-lg">Spring Boot</div>
       <div className="bg-white p-4 shadow-md rounded-lg">Node.js</div>
+      <div className="bg-white p-4 shadow-md rounded-lg">Express.js</div>
       <div className="bg-white p-4 shadow-md rounded-lg">Tailwind CSS</div>
 
       {/* Database & Tools */}
-      <div className="bg-white p-4 shadow-md rounded-lg">Firebase</div>
       <div className="bg-white p-4 shadow-md rounded-lg">MySQL</div>
       <div className="bg-white p-4 shadow-md rounded-lg">PostgreSQL</div>
+      <div className="bg-white p-4 shadow-md rounded-lg">MongoDB</div>
+      <div className="bg-white p-4 shadow-md rounded-lg">Firebase</div>
       <div className="bg-white p-4 shadow-md rounded-lg">Git</div>
       <div className="bg-white p-4 shadow-md rounded-lg">AWS</div>
       <div className="bg-white p-4 shadow-md rounded-lg">RESTful APIs</div>

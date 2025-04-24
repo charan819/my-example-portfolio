@@ -9,6 +9,13 @@ const projects = [
       "Architected a full-stack Jira-inspired task management system with customizable workflows, drag-and-drop task boards, real-time collaboration for 10+ users, and version tracking across 30+ revisions.",
   },
   {
+    title: "Travel Journal App (MERN)",
+    tech: "MongoDB, Express.js, React, Node.js, Cloudinary",
+    date: "March 2025",
+    description:
+      "Built a full-stack travel journaling app where users can register/login, write entries with rich text and images, and manage posts securely using JWT authentication. Integrated Cloudinary for image uploads and MongoDB for data persistence.",
+  },
+  {
     title: "Task Manager Web App",
     tech: "React, Redux Toolkit, Firebase, Tailwind CSS",
     date: "Nov 2024",
@@ -41,9 +48,9 @@ const Projects = () => {
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-blue-600">{project.title}</h3>
+              <h3 className="text-xl font-semibold text-blue-600">{project.title}</h3>
               <p className="font-semibold text-gray-600 mt-2">{project.date}</p>
-              <p className="text-gray-700 mt-2">{project.description}</p>
+              <p className="text-gray-700 mt-1">{project.description}</p>
               <p className="text-sm text-gray-500 mt-2"><strong>Technologies:</strong> {project.tech}</p>
             </div>
           ))}
