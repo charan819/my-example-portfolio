@@ -4,35 +4,42 @@ const projects = [
   {
     title: "Personal Goal Tracker (Jira Clone)",
     tech: "React, Node.js, Java, Spring Boot",
-    date: "Jan 2025 – Present",
+    date: "February 2025 - April 2025",
     description:
       "Architected a full-stack Jira-inspired task management system with customizable workflows, drag-and-drop task boards, real-time collaboration for 10+ users, and version tracking across 30+ revisions.",
   },
   {
+    title: "Medicine Prescription Tracker",
+    tech: "Python, Flask, HTML, CSS, Chart.js",
+    date: "December 2024 - February 2025",
+    description:
+      "Built a cross-platform healthcare management system to track medications, log health metrics, access records across devices, and deliver smart reminders. Included AI-driven health insights, multilingual support, and emergency services integration.",
+  },
+  {
     title: "Travel Journal App (MERN)",
     tech: "MongoDB, Express.js, React, Node.js, Cloudinary",
-    date: "March 2025",
+    date: "January 2025 - March 2025",
     description:
       "Built a full-stack travel journaling app where users can register/login, write entries with rich text and images, and manage posts securely using JWT authentication. Integrated Cloudinary for image uploads and MongoDB for data persistence.",
   },
   {
-    title: "Task Manager Web App",
-    tech: "React, Redux Toolkit, Firebase, Tailwind CSS",
-    date: "Nov 2024",
-    description:
-      "Developed a Kanban-style task manager with real-time Firebase sync, interactive drag-and-drop interface, user roles, and a dashboard visualizing 12+ productivity metrics.",
-  },
-  {
     title: "Live Script Compiler",
     tech: "HTML, CSS, JavaScript, GitHub Pages, Ace Editor",
-    date: "Jan 2024",
+    date: "August 2024 - October 2024",
     description:
       "Built a responsive, web-based code editor with real-time preview, supporting 15+ syntax themes, live editing of 2000-line scripts, and cross-browser compatibility across 6 major browsers.",
   },
   {
+    title: "Task Manager Web App",
+    tech: "React, Redux Toolkit, Firebase, Tailwind CSS",
+    date: "March 2024 - July 2024",
+    description:
+      "Developed a Kanban-style task manager with real-time Firebase sync, interactive drag-and-drop interface, user roles, and a dashboard visualizing 12+ productivity metrics.",
+  },
+  {
     title: "Image Cartoonification",
     tech: "CNN, Flask, TensorFlow, Keras",
-    date: "March 2023",
+    date: "January 2023 - April 2023",
     description:
       "Developed a CNN-based model for image cartoonification and style transfer, integrating advanced image processing with PIL and Matplotlib.",
   }
